@@ -25,7 +25,7 @@ const Header = (props: AppBarProps) => {
             variant="h6"
             sx={{ typography: "h6", lineHeight: "1.25rem" }}
           >
-            MUI Theme Creator
+            CockroachDB MUI Theme Creator
           </Typography>
           <Typography
             variant="caption"

@@ -56,11 +56,13 @@ const PreviewBackground = ({ children }: PreviewBackgroundProps) => {
       square
       sx={{
         bgcolor: 'background.default',
-        maxWidth: previewSize === "xs" ? 375 : previewSize === "sm" ? 650 : 1000,
+        maxWidth: previewSize === "xs" ? 375 : previewSize === "sm" ? 650 : 1500,
         height: 1,
         overflowY: "scroll",
         margin: "auto",
         position: "relative", // for FAB positioning
+        display: "flex",
+        flexDirection: "column",
       }}
       dir={directionIsRTL ? "rtl" : ""}
     >
